@@ -9,4 +9,7 @@ export default function App({ Component, pageProps }) {
     </>
   );
 }
- 
+// "scripts": {
+//   "build": "next build && next export",
+//   "start": "next start"
+// },

@@ -6,7 +6,7 @@ import { projects } from '../../constants/constants';
 
 const Projects = () => (
   <div>
-    <Section nopadding id="projetcs">
+    <Section nopadding id="projects">
       <SectionDivider/>
         <SectionTitle main>Projects</SectionTitle>
       <GridContainer>
@@ -19,6 +19,7 @@ const Projects = () => (
             </TitleContent>
             <CardInfo>{description}</CardInfo>
             <div>
+              <br/>
               <TitleContent>Stack</TitleContent>
               <TagList>
                 {tags.map((tag,i)=>(
@@ -27,8 +28,8 @@ const Projects = () => (
               </TagList>
             </div>
             <UtilityList>
-              <ExternalLinks href={visit}>Code</ExternalLinks>
-              <ExternalLinks href={source}>Source</ExternalLinks>
+              <ExternalLinks href={visit} target="_blank">Code</ExternalLinks>
+              <ExternalLinks href={source} target='_blank'>Demonstration</ExternalLinks>
             </UtilityList>
           </BlogCard>
          ))}

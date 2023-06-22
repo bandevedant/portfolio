@@ -16,22 +16,26 @@ const Footer = () => {
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Mail</LinkTitle>
-          <LinkItem href="vedantbande2002@gmail.com">vedantbande2002@gmail.com</LinkItem>
+          <LinkItem href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=vedantbande2002@gmail.com" target="_blank">vedantbande2002@gmail.com</LinkItem>
         </LinkColumn>
         </LinkList>
         <SocialIconsContainer>
           <CompanyContainer>
-            <Slogan>Bass Chal raha he !!!</Slogan>
+            <Slogan>Made with ❤️ in 2023 !</Slogan>
           </CompanyContainer>
-          <SocialIcons>
-            <AiFillGithub size="3rem" />
-          </SocialIcons>
-          <SocialIcons>
-            <AiFillInstagram size="3rem" />
-          </SocialIcons>
-          <SocialIcons>
-            <AiFillLinkedin size="3rem" />
-          </SocialIcons>
+
+          <SocialIcons href="https://github.com/bandevedant/" target="_blank">
+          <AiFillGithub style={{ fontSize: "3rem" }} />
+        </SocialIcons>
+        
+        <SocialIcons
+          href="https://www.linkedin.com/in/vedantjain2002/" target="_blank"
+        >
+          <AiFillLinkedin style={{ fontSize: "3rem" }} />
+        </SocialIcons>
+        <SocialIcons href="https://instagram.com/baschalrahahe?igshid=MzNlNGNkZWQ4Mg==" target="_blank">
+          <AiFillInstagram style={{ fontSize: "3rem" }} />
+        </SocialIcons>
         </SocialIconsContainer>
       </FooterWrapper>
     </Section>

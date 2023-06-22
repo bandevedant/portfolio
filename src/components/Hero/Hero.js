@@ -13,18 +13,20 @@ const Hero = () => (
     <Section nopadding row>
       <LeftSection>
         <SectionTitle>
-          Hii...
+          Hey there !
           <br />
           Vedant Bande here !
         </SectionTitle>
         <SectionText>
-          {/* I am a highly enthusiast and a keen problem solver in the domain of
-          web development with fluency in various frameworks such as NodeJs and
-          ExpressJs in backend and ReactJs in frontend and also have a pecular
-          experience with work of REST APIs and willing to work with people over
-          projects to get a one step ahead in development. */}
+          I am a tech enthusiast and a problem solver 
+          with my interests in MERN stack who loves to solve real world problems and work
+          together as a team player.In past I have also mentored students in college.
         </SectionText>
-        <Button onClick={()=>window.location='https://github.com/VedantBandeJain'}>Learn More</Button>
+        <Button
+          onClick={() => (window.location = "https://drive.google.com/file/d/1XL7pZ4il0SMWg4qP55cCG79Uhzro-JeR/view?usp=drive_link", "_blank")}
+        >
+          My Resume
+        </Button>
       </LeftSection>
     </Section>
   </div>
