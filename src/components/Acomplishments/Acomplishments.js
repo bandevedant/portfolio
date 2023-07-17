@@ -7,7 +7,7 @@ const data = [
   {  text: 'Mentored 10+ students at college as a Student Guide'},
   {  text: 'Secretary at E-Cell IIIT Jabalpur', },
   {  text: '1st Prize in Nukkad Natak Competition at BITS Hyderabad Annual Cultural Fest', },
-  {  text: 'Solved 300+problems across all platforms like LeetCode,CodeForces', }
+  {  text: 'Solved 500+problems across all platforms like Codestudio,CodeForces', }
 ];
 
 const Acomplishments = () => (
