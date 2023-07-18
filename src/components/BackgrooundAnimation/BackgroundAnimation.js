@@ -7,7 +7,7 @@ const BackgroundAnimation = () => (
         width: "40vw",
         borderRadius: "50%",
         objectFit: "cover",
-        '@media (max-width: 768px)': {
+        '@media (maxWidth: 768px)': {
           height: '50vh',
           width: '50vw',
         },

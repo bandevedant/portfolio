@@ -17,7 +17,7 @@ const Header = () => (
   <div>
     <Container>
       <Div1>
-        <Link href="/">
+        <Link legacyBehavior href="/">
           <a href="/" style={{ display: "flex", alignItems: "center" }}>
             <DiCssdeck size="3rem" style={{ marginBottom: "20px" }} />{" "}
             <Span>Portfolio</Span>
@@ -26,17 +26,17 @@ const Header = () => (
       </Div1>
       <Div2>
         <li>
-          <Link href="#projects">
+          <Link legacyBehavior href="#projects">
             <NavLink>Projects</NavLink>
           </Link>
         </li>
         <li>
-          <Link href="#tech">
+          <Link legacyBehavior href="#tech">
             <NavLink> Technologies</NavLink>
           </Link>
         </li>
         <li>
-          <Link href="#about">
+          <Link legacyBehavior href="#about">
             <NavLink> About Me</NavLink>
           </Link>
         </li>
