@@ -19,7 +19,7 @@ const Hero = () => (
         </SectionTitle>
         <SectionText>
           I am a tech enthusiast and a problem solver 
-          with my interests in MERN stack who loves to solve real world problems and work
+          with my interests in MERN stack and AI who loves to solve real world problems and work
           together as a team player.In past I have also mentored students in college.
         </SectionText>
         <Button
