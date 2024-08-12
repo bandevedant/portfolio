@@ -23,7 +23,7 @@ const Footer = () => {
           <CompanyContainer>
             <Slogan>Made with ❤️ in 2023 !</Slogan>
           </CompanyContainer>
-
+      <SocialContainer>
           <SocialIcons href="https://github.com/bandevedant/" target="_blank">
           <AiFillGithub style={{ fontSize: "3rem" }} />
         </SocialIcons>
@@ -33,9 +33,10 @@ const Footer = () => {
         >
           <AiFillLinkedin style={{ fontSize: "3rem" }} />
         </SocialIcons>
-        <SocialIcons href="https://instagram.com/baschalrahahe?igshid=MzNlNGNkZWQ4Mg==" target="_blank">
+        <SocialIcons href="https://instagram.com/bandeji_?igshid=MzNlNGNkZWQ4Mg==" target="_blank">
           <AiFillInstagram style={{ fontSize: "3rem" }} />
         </SocialIcons>
+        </SocialContainer>
         </SocialIconsContainer>
       </FooterWrapper>
     </Section>

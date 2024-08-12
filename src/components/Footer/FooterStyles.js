@@ -92,22 +92,24 @@ export const Slogan = styled.p`
 	@media ${props => props.theme.breakpoints.md}{
 		font-size: 16px;
 		line-height: 28px;
+		padding-right: 28px;
 	}
 
 	@media ${props => props.theme.breakpoints.sm}{
 		line-height: 22px;
 		font-size: 14px;
 		min-width: 100px;
+		padding-right: 28px;
 	}
 `
 
 export const SocialContainer = styled.div`
 	display: flex;
-  align-items: center;
+    align-items: center;
 
 	@media ${props => props.theme.breakpoints.md}{
 		justify-content: center;
-		padding-right: 16px;
+		padding-right: 28px;
 		flex-wrap: wrap;
 	}
 `

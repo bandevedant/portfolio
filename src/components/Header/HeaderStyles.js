@@ -30,10 +30,13 @@ export const Div2 = styled.div`
   grid-area: 1 / 2 / 2 / 4;
   display: flex;
   justify-content: space-around;
+  
   @media ${(props) => props.theme.breakpoints.sm} {
-    grid-area: 2 / 2 / 3 / 5;
+    grid-area: 2 / 1 / 3 / 5; // Adjust grid areas for better alignment on mobile
+    justify-content: center; // Center the content on smaller screens
   }
 `;
+
 export const Div3 = styled.div`
   grid-area: 1 / 5 / 2 / 6;
   display: flex;
@@ -125,6 +128,5 @@ border-radius: 50px;
     background-color: #212d45;
     transform: scale(1.2);
     cursor: pointer;
-    
   }
 `

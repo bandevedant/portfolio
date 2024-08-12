@@ -17,27 +17,27 @@ const Header = () => (
   <div>
     <Container>
       <Div1>
-        <Link href="/">
+        <Link legacyBehavior href="/">
           <a href="/" style={{ display: "flex", alignItems: "center" }}>
             <DiCssdeck size="3rem" style={{ marginBottom: "20px" }} />{" "}
             <Span>Portfolio</Span>
           </a>
         </Link>
       </Div1>
-      <Div2>
-        <li>
-          <Link href="#projects">
+      <Div2 >
+        <li >
+          <Link legacyBehavior href="#projects">
             <NavLink>Projects</NavLink>
           </Link>
         </li>
         <li>
-          <Link href="#tech">
+          <Link legacyBehavior href="#tech">
             <NavLink> Technologies</NavLink>
           </Link>
         </li>
         <li>
-          <Link href="#about">
-            <NavLink> About Me</NavLink>
+          <Link legacyBehavior href="#about">
+            <NavLink> About</NavLink>
           </Link>
         </li>
       </Div2>
@@ -50,7 +50,7 @@ const Header = () => (
         >
           <AiFillLinkedin style={{ fontSize: "3rem" }} />
         </SocialIcons>
-        <SocialIcons href="https://instagram.com/baschalrahahe?igshid=MzNlNGNkZWQ4Mg==" target="_blank">
+        <SocialIcons href="https://instagram.com/bandeji_?igshid=MzNlNGNkZWQ4Mg==" target="_blank">
           <AiFillInstagram style={{ fontSize: "3rem" }} />
         </SocialIcons>
       </Div3>
